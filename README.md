@@ -6,16 +6,16 @@ O Ngrok is a service that provides servers behind NAT networks and firewalls tha
 
 <pre><span class="pl-c"></span> #command </span>
 
-apt update && apt upgrade 
+$ apt update && apt upgrade 
 
-apt install git 
+$ apt install git 
 
-git clone https://github.com/AL-AlamySploit/termux-ngrok
+$ git clone https://github.com/AL-AlamySploit/termux-ngrok
 
-cd termux-ngrok 
+$ cd termux-ngrok 
 
-chmod +x termux-ngrok.sh 
+$ chmod +x termux-ngrok.sh 
 
-./termux-ngrok.sh</span></pre>
+$ ./termux-ngrok.sh</span></pre>
 
 A7Y Team (-_^)

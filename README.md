@@ -4,7 +4,7 @@ O Ngrok is a service that provides servers behind NAT networks and firewalls tha
 
 #  Instalando ngrok no Termux
 
-<pre><span class="pl-c"><span class="pl-c">#</span> #command </span>
+<pre><span class="pl-c"></span> #command </span>
 
 apt update && apt upgrade 
 
@@ -16,6 +16,6 @@ cd termux-ngrok
 
 chmod +x termux-ngrok.sh 
 
-./termux-ngrok.sh </span>
+./termux-ngrok.sh</span></pre>
 
-
+A7Y Team (-_^)

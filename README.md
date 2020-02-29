@@ -18,4 +18,12 @@ $ chmod +x termux-ngrok.sh
 
 $ ./termux-ngrok.sh</span></pre>
 
-A7Y Team (-_^)
+# Video explanation
+
+https://youtu.be/qjZX7e1hnUE
+
+# Channel
+
+https://studio.youtube.com/channel/UCQuGjfmo04jDd6zlBscslGQ
+
+A7Y Team (^_^)

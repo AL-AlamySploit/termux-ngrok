@@ -24,6 +24,6 @@ https://youtu.be/qjZX7e1hnUE
 
 # Channel
 
-https://studio.youtube.com/channel/UCQuGjfmo04jDd6zlBscslGQ
+https://www.youtube.com/channel/UCQuGjfmo04jDd6zlBscslGQ
 
 A7Y Team (^_^)

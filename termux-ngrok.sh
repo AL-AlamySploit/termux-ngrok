@@ -15,6 +15,17 @@ echo "${A7Y}██║  ██║███████╗ ██║  ██║█
 echo "${A7Y}╚═╝  ╚═╝╚══════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝";
 echo
 echo "Deseja instalar o Ngrok? [Y/n]"
+printf "[                    ] 0% "
+time.sleep(5)
+printf "[=====               ] 25%"
+time.sleep(5)
+printf "[==========          ] 50%"
+time.sleep(5)
+printf "[===============     ] 75%"
+time.sleep(5)
+printf "[====================] 100%"
+time.sleep(3)
+A7Y = 0
 read opcao
 case $opcao in
 y)

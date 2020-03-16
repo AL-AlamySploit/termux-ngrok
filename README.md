@@ -16,7 +16,7 @@ $ cd termux-ngrok
 
 $ chmod +x termux-ngrok.sh 
 
-$ ./termux-ngrok.sh</span></pre>
+$ sh termux-ngrok.sh </span></pre>
 
 # Video explanation
 

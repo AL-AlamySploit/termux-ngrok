@@ -1,18 +1,17 @@
 #!/bin/dash
 # Desenvolvido por Tchelo Noob
-atualizar='\033[1;32m'
-echo "$atualizar Atualizando repositório..."
+g='\033[1;32m'
+echo "$g Atualizando repositório..."
 apt update && upgrade -y
 apt install -y wget
 clear
-A7Y='\033[01;32m'
 echo
-echo "${A7Y} █████╗ ██╗       █████╗ ██╗      █████╗ ███╗   ███╗██╗   ██╗";
-echo "${A7Y}██╔══██╗██║      ██╔══██╗██║     ██╔══██╗████╗ ████║╚██╗ ██╔╝";
-echo "${A7Y}███████║██║█████╗███████║██║     ███████║██╔████╔██║ ╚████╔╝";
-echo "${A7Y}██╔══██║██║╚════╝██╔══██║██║     ██╔══██║██║╚██╔╝██║  ╚██╔╝";
-echo "${A7Y}██║  ██║███████╗ ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║   ██║";
-echo "${A7Y}╚═╝  ╚═╝╚══════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝";
+echo "${g} █████╗ ██╗       █████╗ ██╗      █████╗ ███╗   ███╗██╗   ██╗";
+echo "${g}██╔══██╗██║      ██╔══██╗██║     ██╔══██╗████╗ ████║╚██╗ ██╔╝";
+echo "${g}███████║██║█████╗███████║██║     ███████║██╔████╔██║ ╚████╔╝";
+echo "${g}██╔══██║██║╚════╝██╔══██║██║     ██╔══██║██║╚██╔╝██║  ╚██╔╝";
+echo "${g}██║  ██║███████╗ ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║   ██║";
+echo "${g}╚═╝  ╚═╝╚══════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝";
 echo
 echo "Deseja instalar o Ngrok? [Y/n]"
 read opcao
@@ -20,6 +19,21 @@ case $opcao in
 y)
 echo
 echo "Downloading Termux-ngrok..."
+printf "Please wait..[                    ] 0% "
+sleep 0.4
+clear
+printf "Please wait..[=====               ] 25%"
+sleep 0.4
+clear
+printf "Please wait..[==========          ] 50%"
+sleep 0.4
+clear
+printf "Please wait..[===============     ] 75%"
+sleep 0.4
+clear
+printf "Please wait..[====================] 100%"
+sleep 0.4
+clear
 case `dpkg --print-architecture` in
 aarch64)
     architectureURL="arm64" ;;

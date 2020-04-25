@@ -18,22 +18,23 @@ read opcao
 case $opcao in
 y)
 echo
-echo "Downloading Termux-ngrok..."
-printf "Please wait..[                    ] 0% "
-sleep 0.4
-clear
-printf "Please wait..[=====               ] 25%"
-sleep 0.4
-clear
-printf "Please wait..[==========          ] 50%"
-sleep 0.4
-clear
-printf "Please wait..[===============     ] 75%"
-sleep 0.4
-clear
-printf "Please wait..[====================] 100%"
-sleep 0.4
-clear
+termux-open-url https://youtu.be/qjZX7e1hnUE
+echo $g"Downloading Termux-ngrok..."
+#printf "Please wait..[                    ] 0% "
+#sleep 0.4
+#clear
+#printf "Please wait..[=====               ] 25%"
+#sleep 0.4
+#clear
+#printf "Please wait..[==========          ] 50%"
+#sleep 0.4
+#clear
+#printf "Please wait..[===============     ] 75%"
+#sleep 0.4
+#clear
+#printf "Please wait..[====================] 100%"
+#sleep 0.4
+#clear
 case `dpkg --print-architecture` in
 aarch64)
     architectureURL="arm64" ;;

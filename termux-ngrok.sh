@@ -1,25 +1,27 @@
 #!/bin/dash
 # Desenvolvido por Tchelo Noob
 g='\033[1;32m'
-echo "$g Atualizando repositório..."
+b='\033[1;34m'
+echo "$g Updating and Upgrading First..!"
 apt update && upgrade -y
-apt install -y wget
+apt install  wget -y
 clear
 echo
-echo "${g} █████╗ ██╗       █████╗ ██╗      █████╗ ███╗   ███╗██╗   ██╗";
-echo "${g}██╔══██╗██║      ██╔══██╗██║     ██╔══██╗████╗ ████║╚██╗ ██╔╝";
-echo "${g}███████║██║█████╗███████║██║     ███████║██╔████╔██║ ╚████╔╝";
-echo "${g}██╔══██║██║╚════╝██╔══██║██║     ██╔══██║██║╚██╔╝██║  ╚██╔╝";
-echo "${g}██║  ██║███████╗ ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║   ██║";
-echo "${g}╚═╝  ╚═╝╚══════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝";
+echo "${b} █████╗ ██╗       █████╗ ██╗      █████╗ ███╗   ███╗██╗   ██╗";
+echo "${b}██╔══██╗██║      ██╔══██╗██║     ██╔══██╗████╗ ████║╚██╗ ██╔╝";
+echo "${b}███████║██║█████╗███████║██║     ███████║██╔████╔██║ ╚████╔╝";
+echo "${b}██╔══██║██║╚════╝██╔══██║██║     ██╔══██║██║╚██╔╝██║  ╚██╔╝";
+echo "${b}██║  ██║███████╗ ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║   ██║";
+echo "${b}╚═╝  ╚═╝╚══════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝";
 echo
-echo "Deseja instalar o Ngrok? [Y/n]"
+echo $g"Deseja instalar o Ngrok? [Y/n]"
 read opcao
 case $opcao in
 y)
 echo
 termux-open-url https://youtu.be/qjZX7e1hnUE
-echo $g"Downloading Termux-ngrok..."
+echo $g"Downloading..!"
+sleep 0.4
 #printf "Please wait..[                    ] 0% "
 #sleep 0.4
 #clear
@@ -58,14 +60,14 @@ cat ngrok > /data/data/com.termux/files/usr/bin/ngrok
 chmod 700 /data/data/com.termux/files/usr/bin/ngrok
 rm ngrok ngrok.zip
 clear
-echo "${k}███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗";
-echo "${k}████╗  ██║██╔════╝ ██╔══██╗██╔═══██╗██║ ██╔╝";
-echo "${k}██╔██╗ ██║██║  ███╗██████╔╝██║   ██║█████╔╝ ";
-echo "${k}██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ ";
-echo "${k}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
-echo "${k}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
+echo "${g}███╗   ██╗ ██████╗ ██████╗  ██████╗ ██╗  ██╗";
+echo "${g}████╗  ██║██╔════╝ ██╔══██╗██╔═══██╗██║ ██╔╝";
+echo "${g}██╔██╗ ██║██║  ███╗██████╔╝██║   ██║█████╔╝ ";
+echo "${g}██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ ";
+echo "${g}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
+echo "${g}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
 echo
-echo "Exemplo de comando (ngrok http 80\nOu ngrok para ajuda)"
+echo $g"Example driving ('ngrok http 80'\n or ngrok help)"
 ;;
 
 n)

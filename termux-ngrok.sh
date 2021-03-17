@@ -1,5 +1,5 @@
 #!/bin/dash
-# Desenvolvido por Tchelo Noob
+# Desenvolvido por: Ahmed Mohamed (A l - A l a m y)
 g='\033[1;32m'
 b='\033[1;34m'
 echo "$g Updating and Upgrading First..!"
@@ -19,7 +19,7 @@ read opcao
 case $opcao in
 y)
 echo
-termux-open-url https://youtu.be/qjZX7e1hnUE
+termux-open-url https://www.youtube.com/channel/UCm-UlQ6ygk4jkNfgFzlc2LA
 echo $g"Downloading..!"
 sleep 0.4
 #printf "Please wait..[                    ] 0% "

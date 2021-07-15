@@ -3,7 +3,7 @@
 g='\033[1;32m'
 b='\033[1;34m'
 echo "$g Updating and Upgrading First..!"
-apt update && upgrade -y
+apt update -y;apt upgrade -y
 apt install  wget -y
 clear
 echo

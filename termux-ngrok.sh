@@ -14,9 +14,9 @@ echo "${b}██╔══██║██║╚════╝██╔══█�
 echo "${b}██║  ██║███████╗ ██║  ██║███████╗██║  ██║██║ ╚═╝ ██║   ██║";
 echo "${b}╚═╝  ╚═╝╚══════╝ ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚═╝     ╚═╝   ╚═╝";
 echo
-echo $g"Deseja instalar o Ngrok? [Y/n]"
-read opcao
-case $opcao in
+echo $g"Do you want to install Ngrok? [Y/n]"
+read selection
+case $selection in
 y)
 echo
 termux-open-url https://www.youtube.com/channel/UCm-UlQ6ygk4jkNfgFzlc2LA

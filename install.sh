@@ -1,6 +1,6 @@
 #!/bin/bash
 g='\033[1;32m'
-echo "$g Updating and Upgrading First..!"
+printf $g"Updating and Upgrading First..!\n"
 apt update -y;apt upgrade -y
 apt install  wget -y
 clear

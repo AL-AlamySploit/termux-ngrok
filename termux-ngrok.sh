@@ -1,10 +1,8 @@
 #!/bin/dash
-# Desenvolvido por: Ahmed Mohamed (A l - A l a m y)
+#Developed by: Ahmed Mohamed (A l - A l a m y)
 g='\033[1;32m'
 b='\033[1;34m'
-echo "$g Updating and Upgrading First..!"
-apt update -y;apt upgrade -y
-apt install  wget -y
+
 clear
 echo
 echo "${b} █████╗ ██╗       █████╗ ██╗      █████╗ ███╗   ███╗██╗   ██╗";

@@ -1,5 +1,8 @@
 #!/bin/dash
 #Developed by: Ahmed Mohamed (A l - A l a m y)
+#YouTube Channel: https://www.youtube.com/channel/UCQuGjfmo04jDd6zlBscslGQ
+#YouTube Channel: https://www.youtube.com/channel/UCm-UlQ6ygk4jkNfgFzlc2LA
+# A7Y Team
 g='\033[1;32m'
 b='\033[1;34m'
 

@@ -77,7 +77,6 @@ echo -e $g"Example driving ('ngrok http 80'\n or ngrok help)"
 ;;
 
 n)
-    clear
     echo -e "${r}[-] Ngrok not installed"
     echo
     ;;

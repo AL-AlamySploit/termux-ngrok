@@ -3,8 +3,9 @@
 #YouTube Channel: https://www.youtube.com/channel/UCQuGjfmo04jDd6zlBscslGQ
 #YouTube Channel: https://www.youtube.com/channel/UCm-UlQ6ygk4jkNfgFzlc2LA
 # A7Y Team
-g='\033[1;32m'
-b='\033[1;34m'
+r='\033[1;31m' # Red
+g='\033[1;32m'# Green
+b='\033[1;34m'# Blue
 
 clear
 echo
@@ -67,12 +68,17 @@ echo "${g}██╔██╗ ██║██║  ███╗██████�
 echo "${g}██║╚██╗██║██║   ██║██╔══██╗██║   ██║██╔═██╗ ";
 echo "${g}██║ ╚████║╚██████╔╝██║  ██║╚██████╔╝██║  ██╗";
 echo "${g}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
+echo "                  v2.0                          "
 echo
 echo $g"Example driving ('ngrok http 80'\n or ngrok help)"
 ;;
 
 n)
-clear
-echo "Ngrok não instalado :("
-echo
+    clear
+    echo "${r}[-] Ngrok not installed"
+    echo
+    ;;
+*)
+    echo "unknown"
+    ;;
 esac

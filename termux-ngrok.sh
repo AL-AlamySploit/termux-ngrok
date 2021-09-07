@@ -3,9 +3,11 @@
 #YouTube Channel: https://www.youtube.com/channel/UCQuGjfmo04jDd6zlBscslGQ
 #YouTube Channel: https://www.youtube.com/channel/UCm-UlQ6ygk4jkNfgFzlc2LA
 # A7Y Team
-r='\033[1;31m' # Red
-g='\033[1;32m'# Green
-b='\033[1;34m'# Blue
+
+r='\e[99;31m' # Red
+g='\e[99;32m' # Green
+y='\e[99;33m' # Yellow
+b='\e[99;34m' # Blue
 
 clear
 echo

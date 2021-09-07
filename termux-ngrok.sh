@@ -73,7 +73,7 @@ echo -e "${g}██║ ╚████║╚██████╔╝██║  �
 echo -e "${g}╚═╝  ╚═══╝ ╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═╝";
 echo "                  v2.0                          "
 echo
-echo -e $g"Example driving ('ngrok http 80'\n or ngrok help)"
+echo -e $g"Example driving\n ('ngrok http 80' or ngrok help)"
 ;;
 
 n)

@@ -20,25 +20,25 @@ echo $g"Do you want to install Ngrok? [Y/n]"
 read selection
 case $selection in
 y)
-echo
-termux-open-url https://www.youtube.com/channel/UCm-UlQ6ygk4jkNfgFzlc2LA
-echo $g"Downloading..!"
-sleep 0.4
-#printf "Please wait..[                    ] 0% "
-#sleep 0.4
-#clear
-#printf "Please wait..[=====               ] 25%"
-#sleep 0.4
-#clear
-#printf "Please wait..[==========          ] 50%"
-#sleep 0.4
-#clear
-#printf "Please wait..[===============     ] 75%"
-#sleep 0.4
-#clear
-#printf "Please wait..[====================] 100%"
-#sleep 0.4
-#clear
+    echo
+    xdg-open https://www.youtube.com/channel/UCm-UlQ6ygk4jkNfgFzlc2LA
+    echo $g"Downloading..!"
+    sleep 0.4
+    #printf "Please wait..[                    ] 0% "
+    #sleep 0.4
+    #clear
+    #printf "Please wait..[=====               ] 25%"
+    #sleep 0.4
+    #clear
+    #printf "Please wait..[==========          ] 50%"
+    #sleep 0.4
+    #clear
+    #printf "Please wait..[===============     ] 75%"
+    #sleep 0.4
+    #clear
+    #printf "Please wait..[====================] 100%"
+    #sleep 0.4
+    #clear
 case `dpkg --print-architecture` in
 aarch64)
     architectureURL="arm64" ;;
@@ -53,7 +53,7 @@ i*86)
 x86_64)
     architectureURL="amd64" ;;
 *)
-    echo "Arquitetura desconhecida"
+    echo "unknown architecture"
 esac
 
 wget "https://github.com/AL-AlamySploit/Ngrok-Test/blob/master/ngrok-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip

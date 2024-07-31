@@ -57,7 +57,7 @@ x86_64)
     echo "unknown architecture"
 esac
 echo -e $g"Downloading..!"
-wget "https://github.com/AL-AlamySploit/Ngrok-Test/blob/Tester/ngrok-v3-stable-linux-${architectureURL}.zip?raw=true" -O ngrok.zip
+wget "https://github.com/AL-AlamySploit/Ngrok-Test/blob/Tester/ngrok-v3-stable-linux-${architectureURL}.tgz?raw=true" -O ngrok.zip
 unzip ngrok.zip
 cat ngrok > /data/data/com.termux/files/usr/bin/ngrok
 chmod 700 /data/data/com.termux/files/usr/bin/ngrok
